@@ -4,7 +4,7 @@ from uuid import uuid4
 
 
 class TodoItem(BaseModel):
-    id: str
+    id: str 
     title: str
     description: Optional[str] = None
     completed: bool = False
